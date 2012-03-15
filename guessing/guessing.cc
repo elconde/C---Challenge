@@ -3,6 +3,7 @@
 using namespace std;
 
 int main() { 
+    srand(time(NULL));
     int number=(rand() % 100) + 1;
     int guess=-1;
     int trycount=0;
